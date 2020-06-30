@@ -168,7 +168,7 @@ h6,
 	margin-bottom: 0;
 	font-family: 'Jura', sans-serif;
 	font-weight: 300;
-	color: #262f3c;
+	color: white;
 }
 
 h1 a,
@@ -5537,6 +5537,7 @@ html:not(.tablet):not(.mobile) .thumbnail-classy:hover .thumbnail-classy-image {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	background: #0c0b0a;
 }
 
 .breadcrumbs-custom .big {
@@ -5552,7 +5553,11 @@ section.breadcrumbs-custom+section {
 	padding: 40px 0 62px;
 	background: #ffd800;
 }
-
+.breadcrumbs-custom-main-2 {
+	position: relative;
+	padding: 40px 0 62px;
+	background: white;
+}
 .breadcrumbs-custom-aside {
 	background: #f9f8f8;
 	padding: 0 10px;
@@ -10653,7 +10658,14 @@ p.rights a:hover {
 .bg-accent .map-image {
 	opacity: .45;
 }
-
+.context-dark-2 {
+    color: black;
+    /* background: url(../images/polygon-lines-background_1035-7063.jpg); */
+    min-height: 400px;
+		    zoom: 170%;
+				    background: transparent;
+						    z-index: 999;
+}
 .context-dark .map-marker,
 .bg-gray-900 .map-marker,
 .bg-accent .map-marker {
