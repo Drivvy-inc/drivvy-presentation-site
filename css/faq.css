@@ -31,7 +31,7 @@ summary {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: 500;
+    font-weight: 800;
     cursor: pointer;
     color: #000000;
 }
@@ -89,4 +89,7 @@ details[open] summary:hover::after {
 }
 .faq .badge{
     margin-top: 60px;
+}
+.faq{
+    margin-bottom: 50px;
 }
