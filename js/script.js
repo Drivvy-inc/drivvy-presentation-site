@@ -1404,3 +1404,14 @@ forEach(document.querySelectorAll('.js-Location-nav [data-location]'), function(
 
   }, false);
 });
+
+jQuery(window).scroll(function(){
+	if(jQuery(window).scrollTop()>0){
+		jQuery('#brand-1').css('display','none');
+		jQuery('#brand-2').css('display','block');
+	}else{
+		jQuery('#brand-1').css('display','block');
+		jQuery('#brand-2').css('display','none');
+	}
+});
+

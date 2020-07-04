@@ -19687,7 +19687,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	margin-bottom: 30px;
 }
 .info-we span{
-	font-size: 16px;
+	font-size: 20px;
 	color: black;
 }
 .info-we span span{
@@ -19700,6 +19700,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .info-we .button{
 	color: black;
 	font-size: 20px;
+	font-weight: 800;
 }
 .border-timeline{
 	border: 2px black;
@@ -19906,3 +19907,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	font-weight: 800;
 	color: #000;
 }
+/*.rd-navbar--is-stuck .rd-navbar-brand1{*/
+/*	background-image: url("images/vert");*/
+/*}*/
