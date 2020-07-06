@@ -80,6 +80,13 @@
           </div>
         </div>
       </section>
+      <section class="contact section-lg ">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="map"></div>
+            </div>
+        </div>
+      </section>
       <section class="section section-md">
         <div class="container">
           <div class="row row-50">
@@ -229,5 +236,18 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      function myMap() {
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {
+          center: new google.maps.LatLng(50.468238, 30.468568),
+          zoom: 16
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDegRE_wOlxS591T5FQFGPts5Jl-wjlXjM&callback=myMap"></script>
+
   </body>
 </html>

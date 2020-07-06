@@ -19910,3 +19910,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 /*.rd-navbar--is-stuck .rd-navbar-brand1{*/
 /*	background-image: url("images/vert");*/
 /*}*/
+#map {
+	width: 100%;
+	height: 400px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
