@@ -4711,3 +4711,8 @@ li {
 *, *: before, *:after {;
 	box-sizing: inherit;
 }
+
+.special-right ul{
+text-align: center!important;
+}
+
