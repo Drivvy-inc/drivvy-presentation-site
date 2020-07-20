@@ -101,12 +101,12 @@
             <div class="badge wow fadeIn">Наши сервисы</div>
             <h2 class="wow fadeIn">Что мы предоставляем</h2>
             <div class="row">
-            <div class="col-md-8" style="margin-top: 20px">
+            <div class="col-xs-12 col-sm-8 col-md-8" id="kards" style="margin-top: 20px">
             <div class="row row-30 row-xl-60">
-              <div class="col-md-6 parent-vertical">
-                <div class="col-md-12 child-vertical">
+              <div class="col-xs-12 col-sm-8 col-md-6 parent-vertical">
+                <div class="col-xs-12 col-sm-8 col-md-12 child-vertical">
                   <!-- Box Modern-->
-                  <article class="box-modern wow fadeIn " data-anime="circles-2">
+                  <article class="box-modern wow fadeIn " data-anime="circles-2" id="kards1">
                     <div class="box-modern-media">
 <!--                      <div class="box-modern-icon mdi mdi-television-guide"></div>-->
 <!--                      <div class="box-modern-circle box-modern-circle-1"></div>-->
@@ -119,10 +119,10 @@
                   </article>
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="col-md-12">
+              <div class="col-md-6 col-sm-4  col-xs-6">
+                <div class="col-md-12 col-sm-8  col-xs-12">
                   <!-- Box Modern-->
-                  <article class="box-modern wow fadeIn" data-anime="circles-2">
+                  <article class="box-modern wow fadeIn" data-anime="circles-2" id="kards2">
                     <div class="box-modern-media">
                       <div class="box-modern-icon"><img src="images/icons/sale.svg" alt=""></div>
 <!--                      <div class="box-modern-circle box-modern-circle-1"></div>-->
@@ -218,10 +218,10 @@
                 </ul>
                 <div class="row">
                   <div class="col-6">
-                    <img src="images/google-play-badge.svg" alt="" style="height: 150px;">
+                    <img src="images/google-play-badge.svg" alt="" style="height: 150px;" id="gplay">
                   </div>
                   <div class="col-6">
-                    <img src="images\Download_on_the_App_Store_Badge_RU_RGB_blk_100317.svg" alt="" style="height: 150px;">
+                    <img src="images\Download_on_the_App_Store_Badge_RU_RGB_blk_100317.svg" alt="" style="height: 150px;" id="astore">
                   </div>
                 </div>
 
@@ -439,8 +439,8 @@
 
           <section class="section section-lg" style="padding-bottom: 0">
             <div class="container">
+              <h2>Популярные вопросы</h2>
               <div class="row">
-                <h2>Популярные вопросы</h2>
                 <div class="row">
                   <div class="col-md-9">
                     <div class="col-md-11 offset-md-1">
@@ -490,16 +490,18 @@
                       </article>
                     </div>
                   </div>
-                  <div class="col-md-3">
-                    <span class="question-img-o" style="font-size: 160px; ">?</span>
-                    <span class="question-img-o" style="font-size: 80px;margin-left: 60px; float: right">?</span>
-                    <br>
-                    <span class="question-img-o" style="font-size: 50px; margin-left: 140px">?</span>
-                    <span class="question-img-o" style="font-size: 110px; margin-left: 140px; float: right">?</span>
-                    <br>
-                    <span class="question-img-o" style="font-size: 70px; ">?</span>
-                    <br>
-                    <span class="question-img-o" style="font-size: 100px; margin-left: 200px">?</span>
+                  <div class="col-md-3" >
+                    <div id="questions">
+                      <span class="question-img-o" style="font-size: 160px; ">?</span>
+                      <span class="question-img-o" style="font-size: 80px;margin-left: 60px; float: right">?</span>
+                      <br>
+                      <span class="question-img-o" style="font-size: 50px; margin-left: 140px">?</span>
+                      <span class="question-img-o" style="font-size: 110px; margin-left: 140px; float: right">?</span>
+                      <br>
+                      <span class="question-img-o" style="font-size: 70px; ">?</span>
+                      <br>
+                      <span class="question-img-o" style="font-size: 100px; margin-left: 200px">?</span>
+                    </div>
 
                   </div>
                 </div>
@@ -607,7 +609,7 @@
 <!--            <div class="container">-->
               <div class="row row-50 justify-content-lg-between">
 
-                <div class="col-lg-4 col-xl-5" style="background-color: #fafafa; border-radius: 5%; margin-left: 60px; box-shadow: -20px 12px 13px 0 rgba(0, 0, 0, 0.15)">
+                <div class="col-lg-4 col-xl-5"  id="feedback" style="background-color: #fafafa; border-radius: 5%; margin-left: 60px; box-shadow: -20px 12px 13px 0 rgba(0, 0, 0, 0.15)">
                   <!-- RD Mailform-->
 
                   <form class="rd-mailform rd-form" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
